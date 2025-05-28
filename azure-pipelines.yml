@@ -16,5 +16,5 @@ steps:
 - script: mvn clean install
   displayName: 'Build with maven'
 
-- script: java -jar target/maven-to-gradle-1.0-SNAPSHOT.jar 
+- script: java -jar target/Maven-Jenkins-Pipeline-1.0-SNAPSHOT.jar # <--- CHANGE THIS LINE
   displayName: 'Running jar'
